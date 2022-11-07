@@ -13,9 +13,9 @@ public class ProductDAO {
 		List<Product> l = new ProductDAO().getProductList();
 		l.forEach((p)->System.out.println(
 				p.getCode()+"\t"+
-				p.getDescription()+"\t"+
+				p.getQuantity()+"\t"+
 				p.getPrice()+"\t"+
-				p.getQuantity()
+				p.getDescription()
 		));
 	}
 	
